@@ -5,6 +5,18 @@ header{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+#home header{
+    background: url(images/animalShelter.avif) 0 -200px no-repeat;
+    background-size: 1500px;
+}
+#about header{
+    background: url(images/aboutAnimalShelter.avif) 0 -200px no-repeat;
+    background-size: 1500px;
+}
+#contact header{
+    background: url(images/contactAnimalShelter.avif) 0 -200px no-repeat;
+    background-size: 1500px;
+}
 li{
     list-style-type: none;
     display: inline;
