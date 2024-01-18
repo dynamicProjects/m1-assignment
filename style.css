@@ -1,0 +1,152 @@
+header{
+    height: 400px;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+}
+li a{
+    text-decoration: none;
+}
+li a:link{
+    color: #000;
+}
+li a:visited{
+    color: #818db3;
+}
+li a:hover{
+    color: #333;
+}
+li a:active{
+    color: #753a30;
+}
+nav{
+    background-color: rgb(255, 245, 238);
+    height: 50px;
+    text-align: center;
+    padding-top: 2px;
+}
+main{
+    margin: 50px;
+}
+main h1{
+    color: rgb(129, 141, 179);
+    font-family: arial;
+}
+   /* footer */
+   footer{
+    width: 100%;
+    height: 155px;
+    padding-bottom: 1em;
+    background-color: #ecfab8;
+}
+footer #nondisclaimer .copy{
+    padding: 3.5em 3.5em 3.5em 13em;
+    float: left;
+    font-size: 0.9em;
+}
+footer #nondisclaimer .social{
+    padding: 2.5em;
+    margin-right: 9.25em;
+    float: right;
+}
+footer #disclaimer{
+    clear: both;
+}
+footer #disclaimer p{
+    font-size: 0.8em;
+    text-align: center;
+}
+footer #nondisclaimer .social .fa{
+  padding: 15px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 4px;
+  border-radius: 50%;
+}
+footer #nondisclaimer .social .fa:hover{
+    opacity: 0.7;
+}
+footer #nondisclaimer .social .fa-facebook{
+   background:#3b5998;
+   color: white;
+}
+footer #nondisclaimer .social .fa-instagram{
+   background:#55acee;
+   color: white;
+}
+footer #nondisclaimer .social .fa-twitter{
+   background:#126688;
+   color: white;
+}
+table{
+    width: 1000px;
+    margin: 4em auto 0 auto;
+}
+caption{
+    background: #852b1b;
+    height: 40px;
+    color:#fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+thead{
+    background: #bde1ff;
+}
+tbody{
+    background: #eeffe6;
+    text-align: center;
+}
+th, td{
+    width: 225px;
+    height: 75px;
+    vertical-align: middle;
+    border: 1px solid #852b1b;
+}
+th:first-child{
+    width: 125px;
+    height: 50px;
+    background: #4977d1;
+    color: #fff;
+}
+td:first-child{
+    font-weight: bold;
+    background: #bde1ff;
+}
+/* form css */
+label{
+    display: block;
+    margin: 15px 0 0 0;
+}
+input{
+    width: 300px;
+}
+legend{
+    color: #4977D1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+input[type="radio"]{
+    width: 25px;
+}
+textarea{
+    width: 300px;
+}
+input[type="submit"]{
+    display: block;
+    margin: 20px 0 10px 0;
+    width: 100px;
+    padding: 10px 25px 10px 25px;
+    background: #4977D1;
+    border: none;
+    color: #fff;
+    margin-left: 200px;
+}
